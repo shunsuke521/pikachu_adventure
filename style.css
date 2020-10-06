@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.field{
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.battle-zone{
+  overflow: hidden;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.monster{
+  width: 50%;
+  float: left;
+}
+
+.monster-data{
+  width: 500px;
+  height: 100px;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding:10px 10px;
+  text-shadow:1px 1px 0 #fff, -1px -1px 0 #fff,
+              -1px 1px 0 #fff, 1px -1px 0 #fff,
+              0px 1px 0 #fff,  0 -1px 0 #fff,
+              -1px 0 0 #fff, 1px 0 0 #fff;
+}
+
+.monster-data meter{
+  width: 480px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.monster-data p{
+  font-size: 22px;
+}
+
+.enemy p{
+  text-align: right;
+}
+
+.monster-icon{
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.monster-icon img{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50px;
+  left: 50px;
+}
+
+.monster-icon .change{
+  left: -300px;
+}
+
+.monster-icon input{
+  border: 1px solid black;
+  position: absolute;
+  height: 50px;
+  border-radius: 6px;
+  font-size: 30px;
+  top: 175px;
+  left: 105px;
+  padding: 0 10px;
+  outline: none;
+}
+
+.history-zone{
+  width: 1100px;
+  height: 200px;
+  border: 10px double black;
+  box-sizing: border-box;
+  margin: 50px auto 0 auto;
+  background: rgba(255,255,255,0.8);
+  border-radius: 6px;
+}
+
+.history{
+  width: 640px;
+  height: 180px;
+  border-right: 5px double black;
+  box-sizing: border-box;
+  float: left;
+  padding: 2.5px 10px;
+}
+
+.history p{
+  font-size: 25px;
+  line-height: 35px;
+  opacity: 0;
+}
+
+.history span{
+  opacity: 0;
+}
+
+.right-box{
+  width: 440px;
+  height: 180px;
+  overflow: hidden;
+  float: left;
+}
+
+.option{
+  width: 140px;
+  height: 180px;
+  border-right: 5px double black;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.option p{
+  font-size: 25px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.option .option-arrow{
+position: absolute;
+border-left: 18px solid black;
+border-bottom: 12px solid transparent;
+border-top: 12px solid transparent;
+top: 18px;
+left: 20px;
+opacity: 0;
+}
+
+.arrow2{
+  top: 58px !important;
+}
+
+.arrow3{
+  top: 98px !important;
+}
+
+.arrow4{
+  top: 138px !important;
+}
+
+.more-option{
+  width: 310px;
+  height: 180px;
+  margin-left: 140px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  position: relative;
+  opacity: 0;
+}
+
+.more-option p{
+  font-size: 25px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.more-option .more-option-arrow{
+position: absolute;
+border-left: 18px solid black;
+border-bottom: 12px solid transparent;
+border-top: 12px solid transparent;
+top: 18px;
+left: 30px;
+opacity: 0;
+}
+
+.active{
+  opacity: 1 !important;
+}
+
+.right-box input{
+  outline: none;
+  height: 40px;
+  border: none;
+  background: transparent;
+  font-size: 25px;
+}
+
+/* スタート画面 */
+.start{
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  background: #f6f5f4;
+  margin-top: 150px;
+}
+
+.start h1{
+  position: absolute;
+  top: 50px;
+  width: 300px;
+  left: 150px;
+}
+
+.start img{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+
+.start input{
+  width: 150px;
+  height: 50px;
+  display: block;
+  border: none;
+  font-size: 22px;
+  position: absolute;
+  top: 320px;
+  left: 225px;
+  outline: none;
+  border-radius: 6px;
+  background: #fff;
+}
+
+input:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
